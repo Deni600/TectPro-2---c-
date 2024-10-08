@@ -1,0 +1,48 @@
+
+
+#include<iostream>
+using namespace std;
+
+int main()
+{ 
+    
+   int  a, b, selection;
+    cout<<"ввести два числа"<<endl;
+    cin>>a>>b;
+    
+    cout <<"выберите м операцию"<<endl<<
+    
+    "1 слож"<< endl <<
+    "2 выч " << endl <<
+    "3 умн" << endl <<
+    "4 дел" << endl;
+    
+    cin>> selection;
+   
+    
+ switch(selection) { 
+ 
+ 
+ 
+      case 1:
+         cout<< " результат +" << a + b <<endl;
+         break;
+      
+      case 2:
+         cout << "результат - " << a - b <<endl;
+         break;
+      
+      case 3:
+         cout <<" результат * "<<a * b<<endl;
+         break;
+    
+      case 4:
+         cout<<" результат / "<<(float)a/b<<endl;
+         break;
+         
+         
+      default:
+         cout<< " ошибка"<<endl;
+         break;
+         }}
+         
